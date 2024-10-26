@@ -1,0 +1,159 @@
+@media all and (max-width: 992px) {
+
+    #top-contacts {
+        display: none;
+    }
+
+    #header {
+        background-color: #171a28;
+    }
+
+    .wrapper-header {
+        position: fixed;
+    }
+
+    #nav {
+        position: fixed;
+        width: 320px;
+        left: -320px;
+        top: 0;
+        overflow: auto;
+        height: 100vh;
+        background-color: #171a28;
+        padding: 10px 30px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #nav .menu {
+        clear: both;
+        padding-top: 30px;
+    }
+
+    #nav .menu li {
+        float: none;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    #closemenu {
+        display: inline-block;
+        float: right;
+    }
+
+    #openmenu {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .wrapper.content-header>div {
+        width: 100%;
+        text-align: center;
+    }
+
+    #aboutus .excellence.flex-row {
+        position: static;
+        left: 0;
+        -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+        margin-bottom: 50px;
+    }
+
+    .excellence.flex-row>div {
+        width: 50%;
+        padding: 30px 10px;
+    }
+
+    .excellence.flex-row .icon-excellence {
+        position: static;
+        background-color: #171a28;
+        -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+        padding: 20px;
+        border: 1px solid #C89D66;
+        -webkit-transition: all;
+        -o-transition: all;
+        transition: all;
+        -webkit-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    #aboutus {
+        padding: 0px 0px 100px 0px;
+    }
+
+    .content-aboutus {
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .img-aboutus {
+        width: 100%;
+    }
+
+    .img-aboutus .wrapp-experience {
+        -webkit-transform: translateX(10%);
+        -ms-transform: translateX(10%);
+        transform: translateX(10%);
+    }
+
+    .single-team {
+        width: calc(50% - 20px);
+        margin-bottom: 100px;
+    }
+
+    .single-services {
+        width: calc(50% - 20px);
+        margin: 0px 10px;
+        margin-bottom: 20px;
+    }
+
+    .contact-content {
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .contact-map {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 600px) {
+
+    .excellence.flex-row>div {
+        margin-top: 30px;
+
+    }
+
+    .excellence.flex-row>div,
+    .single-team,
+    .single-services,
+    .wrapp-input.flex-row>div {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 400px) {
+
+    .wrapper.content-header>div h1 {
+        font-size: 40px;
+    }
+
+    .content-aboutus h2,
+    .team-content h2,
+    .single-services h2,
+    #testimonials h2,
+    .consultation-content h2,
+    .contact-content h2 {
+        font-size: 35px;
+    }
+}
